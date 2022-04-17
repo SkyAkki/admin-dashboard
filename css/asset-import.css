@@ -22,21 +22,44 @@
     font-family: RobotoThin;
     src: url(../fonts/Roboto-Thin.ttf);
 }
-.home {
+/* .home {
     list-style-image: url(../icons/home.png);
+} */
+/* Commented this method as this did not provide enough flexibility to resize the bullet icon image. But if possible I would have preferred 
+this method only */
+.home {
+    background: #0086d6 url("../icons/home.png") 0 0px / 2rem no-repeat;
+    grid-area: home;
 }
 .profile {
-    list-style-image: url(../icons/card-account-details.png);
+    background: #0086d6 url("../icons/card-account-details.png") 0 0px /  2rem  no-repeat;
+    grid-area: profile;
 }
 .messages {
-    list-style-image: url(../icons/message-reply.png);
+    background: #0086d6 url("../icons/message-reply.png") 0 0px /  2rem  no-repeat;
+    grid-area: messages;
 }
 .history{
-    list-style-image: url(../icons/clock-time-three.png);
+    background: #0086d6 url("../icons/clock-time-three.png") 0 0px /  2rem  no-repeat;
+    grid-area: history;
 }
 .tasks {
-    list-style-image: url(../icons/task-icon.png);
+    background: #0086d6 url("../icons/task-icon.png") 0 0px /  2rem  no-repeat;
+    grid-area: tasks;
 }
 .community{
-    list-style-image: url(../icons/account-group.png);
+    background: #0086d6 url("../icons/account-group.png") 0 0px /  2rem  no-repeat;
+    grid-area: community;
+}
+.settings {
+    background: #0086d6 url("../icons/cog.png") 0 0px /  2rem  no-repeat;
+    grid-area: settings;
+}
+.support {
+    background: #0086d6 url("../icons/help-box.png") 0 0px /  2rem  no-repeat;
+    grid-area: support;
+}
+.privacy {
+    background: #0086d6 url("../icons/shield-check.png") 0 0px /  2rem  no-repeat;
+    grid-area: privacy;
 }

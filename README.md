@@ -20,3 +20,8 @@ It is better to combine all CSS files into one rather than having multiple CSS f
 
 2. Question
 Which is a better practice, using <img> in list item for icons or giving a class to list item and and change list-style-image in the CSS?
+
+
+3. Learnings
+Generally we want to avoid setting background-size property with the background shorthand.
+But if needed we use it after setting position in shorthand starting with a '/' symbol.
