@@ -1,8 +1,8 @@
-@import url(asset-import.css);
+/* @import url(asset-import.css); */
 .master-grid {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 5fr;
 }
 html, body {
     margin:0;
@@ -52,6 +52,74 @@ li {
 }
 header {
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 5px;
+    gap: 10px;
+}
+form {
+    justify-self: center;
+}
+.search-button {
+    height: 2rem;
+    position: relative;
+    top: 6px;
+}
+.profile-icon{
+    border-radius: 50%;
+    height: 3rem;
+    align-self: center;
+    justify-self: center;
+}
+.dp {
+    height: 5rem;
+}
+.welcome {
+    color: black;
+    align-self: center;
+}
+header > section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 2rem;
+}
+.welcome > h3{
+    margin: 0px;
+}
+.notification-icon {
+    align-self: center;
+    justify-self: end;
+}
+#search {
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    background-color: #e1e6f0;
+    font-size: 1.5rem;
+}
+header > h2 {
+    color: black;
+    margin: 0px;
+    align-self: center;
+    font-family: RobotoMedium;
+    font-size: 1.2rem;
+}
+header > button {
+    align-self: center;
+    justify-self: center;
+    background-color: #0086d6;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    color: #fbfdfd;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+.newbutton{
+    justify-self: end;
+}
+.sharebutton{
+    justify-self: start;
 }
 main {
     background-color: #e1e6f0;
