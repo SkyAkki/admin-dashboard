@@ -7,7 +7,7 @@
 html, body {
     margin:0;
     height:100%;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 :root{
     color: #fdfefe;
@@ -88,6 +88,7 @@ header > section {
 h3{
     margin: 0px;
     color: black;
+    font-family: RobotoMedium;
 }
 .notification-icon {
     align-self: center;
@@ -136,12 +137,13 @@ main {
 .content-grid {
     grid-row-end: -1;
     grid-row-start: 1;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .announcements > ul , .trending > ul{
     background-color: #ffffff;
     border-radius: 10px;
     padding: 10px;
+    margin: 5px 0px;
     /* display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-auto-rows: 1fr;
@@ -151,6 +153,13 @@ main {
 }
 .card > h4, .card > p{
     margin: 0px;
+    font-family: RobotoMedium;
+}
+.card > p{
+    color: #636363;
+    font-size: 0.8rem;
+    font-family: RobotoLight;
+    font-weight: bold;
 }
 .card {
     padding: 15px 10px;
@@ -161,3 +170,29 @@ main {
     height: 1px;
     background-color: lightgray;
 } */
+.card:nth-child(3) {
+    border-bottom: none;
+}
+/* .trending > ul{ */
+    /* padding: 0px; */
+/* } */
+.icon-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0.7rem;
+    gap: 2px;
+    /* border-bottom: solid 1px lightgray; */
+}
+.icon-card > *{
+    margin:0px;
+    font-family: RobotoLight;
+    justify-self: start;
+}
+.trending-icon{
+    grid-row-end: 3;
+    grid-row-start: 1;
+    height: 4rem;
+}
+.icon-card > h4 {
+    align-self: end;
+}

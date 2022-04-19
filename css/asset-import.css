@@ -63,3 +63,10 @@ this method only */
     background: #0086d6 url("../icons/shield-check.png") 0 0px /  2rem  no-repeat;
     grid-area: privacy;
 }
+/*Icons in trending sidebar*/
+/* .profile-1 {
+    background: #ffffff url(../icons/dino.jpeg) -10px 0px/ 5rem no-repeat;
+    border-radius: 50%;
+} */
+/* This method will not work here as the width and height are unequal in trending sidebar so border-radius will 
+always give non-circular background image only.*/
