@@ -37,6 +37,7 @@ html, body {
 }
 nav > ul{
     margin: 0px;
+    padding-left: 20%;
     display: grid;
     grid-template-rows: 1fr repeat(6,1fr) 1.5fr repeat(3,1fr);
     grid-template-areas: "." "home" "profile" "messages" "history" "tasks" "community" "." "settings" "support" "privacy";
@@ -46,7 +47,7 @@ nav > ul{
     /* padding: 0px 0px 0px 2.5rem; */
 }
 nav > ul > li {
-    padding: 3px 0px 10px 4rem;
+    padding: 3px 0px 10px 20%;
     list-style-type: none;
     /* Using this property in addition with list-iamge-style incase the other one fails.*/
 }
@@ -134,10 +135,13 @@ main {
     grid-template-columns: 5fr 2fr;
     grid-template-rows: 1fr 1fr;
 }
-.content-grid {
+main > section{
     grid-row-end: -1;
     grid-row-start: 1;
     /* background-color: aqua; */
+}
+.content-grid {
+    
 }
 .announcements > ul , .trending > ul{
     background-color: #ffffff;
