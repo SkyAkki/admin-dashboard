@@ -29,3 +29,6 @@ Which is a better practice, using <img> in list item for icons or giving a class
 3. Learnings
 Generally we want to avoid setting background-size property with the background shorthand.
 But if needed we use it after setting position in shorthand starting with a '/' symbol.
+
+4. Improvements
+    Make grid column sizing flexible using autofill and repeat.
